@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Body Style */
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background: #f0f2f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Container */
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 30px 0;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2em;
+        }
+
+        /* Profile Section */
+        .profile {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 30px;
+            transition: transform 0.3s ease;
+        }
+
+        .profile img:hover {
+            transform: scale(1.1);
+        }
+
+        .profile-info {
+            max-width: 600px;
+        }
+
+        .profile-info h2 {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        /* Social Links */
+        .social-links {
+            margin-top: 15px;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            color: #007BFF;
+            margin-right: 15px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #0056b3;
+        }
+
+        /* About Section */
+        .about {
+            margin-top: 30px;
+            padding: 20px;
+            border-top: 1px solid #ddd;
+        }
+
+        .about h2 {
+            font-size: 1.8em;
+            color: #007BFF;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        /* Contact Section */
+        .contact {
+            margin-top: 30px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .contact h2 {
+            font-size: 1.8em;
+            color: #007BFF;
+            margin-bottom: 20px;
+        }
+
+        .contact a {
+            text-decoration: none;
+            color: white;
+            background-color: #007BFF;
+            padding: 10px 25px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .profile {
+                flex-direction: column;
+                text-align: center;
+            }
+            .profile img {
+                margin: 0 0 20px 0;
+            }
+            .profile-info h2 {
+                font-size: 1.5em;
+            }
+            .about h2,
+            .contact h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Header Section -->
+    <div class="header">
+        <h1>Izzat Khalwani</h1>
+        <p>Top Universe Linglung</p>
+    </div>
+
+    <!-- Profile Section -->
+    <div class="profile">
+        <img src="zat.jpg" alt="Foto Profil">
+        <div class="profile-info">
+            <h2>Halo,</h2>
+            <h2>Saya Izzat Khalwani</h2>
+            <p>Saya adalah seorang player mobile legend dengan bermain dalam role Assasin. Saya bersemangat untuk menciptakan kemenangan inovatif yang membantu menciptakan winstreak.</p>
+            <div class="social-links">
+                <a href="https://youtube.com/in/username">Youtube</a>
+                <a href="https://facebook.com/username">Facebook</a>
+                <a href="https://Tiktok.com/username">Tiktok</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="about">
+        <h2>Tentang Saya</h2>
+        <p>Saya memiliki pengalaman bertahun-tahun dalam bermain mobile legend, dengan keahlian di semua role. Ada beberapa hero yang saya sering pick/pakai di beberapa role pada season sekarang,yakni :<p>
+        <p>• Tank (Franco,Tigreal,Atlas)
+        <p>• Fighter (Chou,Benedetta,Alpha)<p>
+        <p>• Mage (Cecilion,Selena,Aurora)<p>
+        <p>• Assasin (Ling,Hayabusa,Nolan)<p>
+        <p>• Marksman (Lesley,Brody,Granger)<p>
+        <p>• Support (Floryn,Rafaela,Estes)<p>
+        </p>Saya senantiasa berkomitmen dengan tim untuk memberikan hasil yang terbaik dalam setiap match.</p>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact">
+        <h2>Hubungi Saya</h2>
+        <a href="mail to:izzatkhalwani04@gmail.com">Kirim Email</a>
+    </div>
+</div>
+
+</body>
+</html>
